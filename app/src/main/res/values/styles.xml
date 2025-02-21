@@ -1,0 +1,7 @@
+<resources>
+    <style name="CircularShape">
+        <!-- This defines the rounded shape -->
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>  <!-- Makes the image round -->
+    </style>
+</resources>

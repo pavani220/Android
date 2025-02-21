@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_1" >
+
+    <!-- Welcome message -->
+
+    <!-- Logo centered in the middle of the screen -->
+
+    <!-- Optional: Add a custom footer with small text or a slogan -->
+
+    <TextView
+        android:id="@+id/welcome_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="411dp"
+        android:gravity="center"
+        android:paddingHorizontal="10dp"
+        android:text="Welcome to Vurimi AI Global Services!"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:layout_below="@id/welcome_message"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="-334dp"
+        android:layout_marginBottom="-10dp"
+        android:contentDescription="Logo"
+        android:src="@drawable/logo" />
+
+    <TextView
+android:id="@+id/footer_text"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="AI-powered organic farming for a better future"
+android:textColor="#FFFFFF"
+android:textSize="14sp"
+android:layout_alignParentBottom="true"
+android:layout_marginBottom="25dp"
+android:gravity="center"
+android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
